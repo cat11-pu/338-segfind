@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "overlap_error_code": "E_OVERLAP",
+  "range_error_code": "E_BAD_RANGE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "segs": [[0, 10], [10, 20]], "found": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "append", "from": 20, "to": 30 },
+    { "id": 2, "kind": "find", "key": 15 },
+    { "id": 3, "kind": "find", "key": 25 },
+    { "id": 4, "kind": "find", "key": 35 }
+  ]
+}
